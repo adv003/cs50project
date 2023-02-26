@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie Catalogue</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Movie Catalogue</h1>
+    </header>
+
+    <nav>
+        <form>
+            <input type="text" placeholder="Search for a movie...">
+            <button type="submit">Search</button>
+        </form>
+
+        <form>
+            <label for="year">Year:</label>
+            <select id="year">
+                <option value="all">All</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <!-- Add more options for different years -->
+            </select>
+
+            <label for="genre">Genre:</label>
+            <select id="genre">
+                <option value="all">All</option>
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <!-- Add more options for different genres -->
+            </select>
+
+            <button type="submit">Filter</button>
+        </form>
+    </nav>
+
+    <section id="movie-list">
+        <!-- Add code to display a list of movies here -->
+    </section>
+
+    <footer>
+        <p>Copyright © 2022 Movie Catalogue</p>
+    </footer>
+
+</body>
+
+</html>
