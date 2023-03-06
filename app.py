@@ -3,5 +3,6 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 @app.route("/")
-def login():
+def index():
     return render_template("login.html")
+
